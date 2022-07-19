@@ -44,3 +44,12 @@ body{
     width: 99.2%;
     padding-top: 30px;
 }
+/*---------- Galary section Start ----------*/
+.pop-up{
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: inline-block;
+}
+/*---------- Galary section End ----------*/
