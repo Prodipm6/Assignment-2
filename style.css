@@ -1,0 +1,35 @@
+/*---------- Common Css Style ----------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*---------- Header Section Start ----------*/
+.container{
+    width: 100%;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    width: 90%;
+    height: 600px;
+    border-radius: 30px;
+    margin-left: 63px;
+    margin-top: 50px;
+}
+.header-text{
+    margin-left: 100px;
+}
+.header-text h1{
+    color: #FFFFFF;
+    font-size: 70px;
+}
+.header-text p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*---------- Header Section End ----------*/
