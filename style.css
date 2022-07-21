@@ -33,8 +33,7 @@ body{
 .header-text p{
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .header-text a{
     text-decoration: none;
@@ -44,6 +43,7 @@ body{
     border-radius: 5px;
     font-size: 20px;
     font-weight: 400px;
+    margin-top: 50px;
 }
 .header-pic{
     margin-left: 24px;
@@ -51,7 +51,7 @@ body{
     padding-right: 30px;
 }
 .header-pic img{
-    width: 104%;
+    width: 105%;
 }
 /*---------- Header Section End ----------*/
 
@@ -110,10 +110,11 @@ body{
     grid-column-gap: 24px;
 }
 .info{
+    background-color: #e8e8e828;
     width: 255px;
     height: 360px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    border: 1px;
 }
 .banner img{
     width: 100%;
@@ -138,7 +139,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 30px;
     color: #161616;
 }
 .watch-time{
@@ -146,6 +147,10 @@ body{
     align-items: center;
     justify-content: start;
     color: rgba(22, 22, 22, 0.7);
+    margin-top: 15px;
+}
+.watch-time img{
+    padding-right: 10px;
 }
 /*---------- Article Section End ----------*/
 /*---------- Footer Section Start----------*/
@@ -176,3 +181,83 @@ hr{
     padding: 50px 20px;
 }
 /*---------- Footer Section End----------*/
+
+/*---------- Media Query style start----------*/
+
+/*---------- For Mobile Devices ----------*/
+@media only screen and (max-width:767px) {
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .header{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+    }
+    .header-text{
+        margin: 0;
+        text-align: center;
+    }
+    .header-text h1{
+        margin-top: 30px;
+        padding: 0 50px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .heder-text p{
+        font-size: 14px;
+        padding: 0 50px;
+        text-align: center;
+    }
+    .header-text a{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .header-pic img{
+        width: 80%;
+        align-items: center;
+        margin-left: 60px;
+    }
+    .main{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        margin-top: 20px;
+    }
+    .button{
+        background: none;
+        
+    }
+    .btn a{
+        background: none;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border: 1px solid #E8E8E8;
+    }
+    .gallary{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallary-info .banner{
+        align-items: center;
+    }
+    .foot-info{
+        width: 100%;
+        height: 100%;
+    }
+    .foot-info .text{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contact ul{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*---------- For Mobile Devices ----------*/
+
+/*---------- For tablet Devices ----------*/
+@media only screen and (min-width: 768px)and(max-width: 1024px) {
+
+    
+}
+/*---------- For tablet Devices ----------*/
